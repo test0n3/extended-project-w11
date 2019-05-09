@@ -50,8 +50,8 @@ html {
   align-items: center;
 }
 
-.users div {
-  background-color: rgb(0, 125, 128);
+.users div img{
+  /* background-color: rgb(0, 125, 128); */
   width: 150px;
   height: 150px;
   margin-right: 20px;
@@ -67,10 +67,30 @@ html {
   font-size: 20px;
 }
 
-.users:hover div {
+.users:hover div img {
   border-color: white;
 }
 
 .users:hover p {
   color: white;
+}
+
+.manage{
+height:100px;
+width:100%;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 0px;
+margin-top: 60px
+}
+
+.manage p{
+  color: gray;
+  border: 1px solid;
+  padding: 0.5em 2em;
+}
+.manage:hover p{
+  border-color: white;
+  color: white
 }

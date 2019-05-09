@@ -1,9 +1,37 @@
-body,html {
+body,
+html {
   background-color: rgb(20, 20, 20);
   height: 100vh;
 }
-.profiles{
-  height: 100vh;
+
+.header {
+  display: flex;
+  justify-content: left;
+  align-content: center;
+  padding-left: 35px;
+  margin: 0px;
+}
+
+.header img {
+  height: 72px;
+  width: 128px;
+}
+
+.title {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  /* TO ASK SERGIO!!!!!!!!!!!!!!!!!!!!!!!!! */
+  /* align-items: flex-end; */
+  align-content: flex-end;
+}
+
+.title p {
+  color: white;
+  font-size: 60px;
+}
+
+.profiles {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -14,9 +42,10 @@ body,html {
 
 .profiles > div {
   background-color: rgb(0, 125, 128);
-  width: 220px;
-  height: 220px;
-  margin: 10px;
+  width: 150px;
+  height: 150px;
+  margin-right: 20px;
+  margin-left: 20px;
   text-align: center;
   line-height: 75px;
   font-size: 30px;

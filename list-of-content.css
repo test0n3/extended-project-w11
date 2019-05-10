@@ -66,6 +66,8 @@ html {
 .popular-on-netflix p {
   color: white;
   font-size: 30px;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 .row {

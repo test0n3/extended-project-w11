@@ -86,7 +86,6 @@ html {
 }
 
 .card {
-  background: yellow;
   width: 230px;
   height: 129px;
   margin-right: 10px;
@@ -105,7 +104,6 @@ html {
 }
 
 .card:hover {
-  background: yellow;
   transform: scale(1.5);
 }
 

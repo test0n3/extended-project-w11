@@ -1,0 +1,47 @@
+body,
+html {
+  background-color: black;
+  height: 100vh;
+  font-family: "Lato", sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.category {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 240px;
+  height: 50px;
+  margin-left: 15px;
+}
+
+.category p {
+  color: white;
+  font-size: 22px;
+}
+
+.category select {
+  height: 25px;
+}
+
+.option-view {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 80px;
+  height: 20px;
+}
+
+.option-view div {
+  border: 0.5px solid white;
+  padding: 2px;
+  width: 40px;
+  height: 20px;
+  display: flex;
+}

@@ -69,7 +69,6 @@ html {
 }
 
 .row {
-  overflow: scroll;
   height: 300px;
   display: flex;
   align-items: left;
@@ -81,6 +80,9 @@ html {
   display: flex;
   flex-wrap: nowrap;
   transition: transform 1s;
+  overflow: scroll;
+  height: 345px;
+  align-items: center;
 }
 
 .card {
@@ -115,7 +117,7 @@ html {
   position: absolute;
 }
 
-.row::-webkit-scrollbar {
+.row-inner::-webkit-scrollbar {
   display: none;
 }
 

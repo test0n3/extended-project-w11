@@ -70,10 +70,12 @@ html {
 
 .users:hover div img {
   border-color: white;
+  cursor: pointer;
 }
 
 .users:hover p {
   color: white;
+  cursor: pointer;
 }
 
 .manage {
@@ -94,4 +96,5 @@ html {
 .manage:hover p {
   border-color: white;
   color: white;
+  cursor: pointer;
 }

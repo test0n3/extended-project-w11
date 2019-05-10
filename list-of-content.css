@@ -45,3 +45,35 @@ html {
   height: 20px;
   text-align: center;
 }
+
+.popular-on-netflix p {
+  color: white;
+}
+
+.row {
+  overflow: scroll;
+}
+
+.row-inner {
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 100px 0;
+  transition: transform 1s;
+}
+
+.card {
+  background: yellow;
+  width: 200px;
+  height: 200px;
+  margin-right: 10px;
+  flex: 0 0 auto;
+  transform-origin: center left;
+  transition: transform 1s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row::-webkit-scrollbar {
+  display: none;
+}

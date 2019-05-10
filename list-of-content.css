@@ -1,0 +1,51 @@
+
+.row
+  background: red
+  overflow: scroll
+  
+.row-inner
+  background: blue
+  display: flex
+  flex-wrap: nowrap
+  margin: (200px / 2) 0
+  transition: transform 1s
+  
+.card
+  background: yellow
+  width: 200px
+  height: 200px
+  margin-right: 10px
+  flex: 0 0 auto
+  transform-origin: center left
+  transition: transform 1s
+  display: flex
+  justify-content: center
+  align-items: center
+  
+  .card__content
+    font-size: 100px
+    font-family: 'Helvetica'
+    font-weight: 700
+    opacity: 0
+    transition: opacity 1s
+  
+  &:hover
+    background: yellow
+    transform: scale(1.5) 
+  
+    .card__content
+      opacity: 1
+    
+.row-inner:hover
+  transform: translateX(-(200px * (1.5 - 1) / 2))
+  
+.row__inner:hover .card
+
+  opacity: .3
+
+  &:hover
+    transform: scale(1.5)
+    opacity: 1
+
+.card:hover ~ .card
+  transform: translate3d(200px * (1.5 - 1), 0, 0)

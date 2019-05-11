@@ -4,22 +4,18 @@ body {
 }
 
 .content-description {
-  border: 1px solid;
   width: 40%;
+  margin-left: 10px;
+  font-family: "Lato", sans-serif;
 }
 
 .content-image {
-  border: 1px solid;
   width: 60%;
 }
 .title {
   color: white;
-  font-family: "Lato", sans-serif;
   font-size: 50px;
   font-weight: bold;
-}
-.genres {
-  border: 1px solid;
 }
 
 .ranking {
@@ -48,6 +44,7 @@ body {
 }
 
 .content-image {
+  /* width: 100px; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -72,9 +69,9 @@ body {
 }
 
 .content-background {
-  height: 500px;
-  /* padding: 150px 25px; */
-  background: linear-gradient(225deg, rgba(52, 105, 191, 0.1) 0%, #000000 100%),
+  height: 480px;
+  width: 1200px;
+  background: linear-gradient(90deg, rgba(52, 105, 191, 0.1) 0%, #000000 100%),
     url(http://www.cultjer.com/img/ug_photo/2016_02/45791020160219122348.jpg)
       no-repeat left center;
   background-size: cover;

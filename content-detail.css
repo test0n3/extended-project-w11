@@ -54,6 +54,10 @@ body {
   color: rgb(194, 188, 188);
 }
 
+.fa-play-circle:hover {
+  color: rgb(199, 16, 16);
+}
+
 .subtitle {
   font-size: 20px;
   color: rgb(194, 188, 188);

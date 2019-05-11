@@ -103,6 +103,21 @@ html {
 .player {
   width: 16px;
   height: 16px;
+  color:  white
+}
+
+.player:hover {
+  color: rgb(228, 49, 34);
+}
+
+.fa-thumbs-up:hover, .fa-thumbs-down:hover, .fa-plus:hover {
+  color: rgb(228, 49, 34);
+}
+
+
+.main-title {
+  font-size: 8px;
+  font-weight: bold;
 }
 .card img {
   width: 100%;
@@ -140,6 +155,7 @@ html {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  padding-left: 5px;
 }
 
 .card-buttons{
@@ -161,7 +177,7 @@ html {
   justify-content: flex-end;
   font-size: 7.5px;
   width: 188px;
-  height: 80px;
+  height: 45px;
   padding-bottom: 5px;
 }
 
@@ -182,6 +198,10 @@ html {
   margin: 0px;
 }
 
+.match-color {
+  color: rgb(99, 214, 118);
+}
+
 .tv-border {
   display: flex;
   justify-content: center;
@@ -200,6 +220,9 @@ html {
   color: white;
 }
 
+.arrow:hover {
+  color: red;
+}
 
 .row-inner::-webkit-scrollbar {
   display: none;

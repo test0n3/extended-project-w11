@@ -100,15 +100,17 @@ html {
   justify-content: center;
   align-items: center;
   position: relative;
-
 }
 .player {
   width: 16px;
   height: 16px;
-  color:  white
+  color: white;
 }
 
-.fa-thumbs-up:hover, .fa-thumbs-down:hover, .fa-plus:hover, .player:hover {
+.fa-thumbs-up:hover,
+.fa-thumbs-down:hover,
+.fa-plus:hover,
+.player:hover {
   color: rgb(228, 49, 34);
 }
 
@@ -127,6 +129,7 @@ html {
 
 .card:hover .card__content {
   opacity: 1;
+  visibility: visible;
 }
 
 .card {
@@ -136,10 +139,11 @@ html {
 
 .card__content {
   position: absolute;
-  color: white; 
+  color: white;
   /* Color for card description */
   display: flex;
   flex-direction: column;
+  visibility: hidden;
 }
 
 .card-details {
@@ -155,13 +159,12 @@ html {
   padding-left: 5px;
 }
 
-.card-buttons{
+.card-buttons {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 0 auto;
   justify-content: space-between;
-
 }
 
 .card-buttons i {
@@ -182,7 +185,6 @@ html {
   margin: 0px;
 }
 
-
 .number-info {
   display: flex;
   flex-direction: row;
@@ -202,6 +204,7 @@ html {
 .tv-border {
   display: flex;
   justify-content: center;
+  align-items: center;
   width: 30px;
   height: 10px;
   padding: 1.2px;
@@ -227,7 +230,6 @@ html {
 
 .row-inner:hover {
   transform: translateX(calc(- (200px * 0.5 / 2)));
-
 }
 
 .row__inner:hover .card {
@@ -237,7 +239,6 @@ html {
 .row__inner:hover {
   transform: scale(1.5);
   opacity: 1;
-
 }
 
 .card:hover ~ .card {

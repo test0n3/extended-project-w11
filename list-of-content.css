@@ -97,12 +97,13 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+
 }
 
 .card img {
   width: 100%;
   height: 100%;
-  position: relative;
 }
 
 .card:hover {
@@ -158,6 +159,7 @@ html {
   font-size: 7.5px;
   width: 188px;
   height: 80px;
+  padding-bottom: 5px;
 }
 
 .summary p {
@@ -202,6 +204,7 @@ html {
 
 .row-inner:hover {
   transform: translateX(calc(- (200px * 0.5 / 2)));
+
 }
 
 .row__inner:hover .card {
@@ -211,8 +214,13 @@ html {
 .row__inner:hover {
   transform: scale(1.5);
   opacity: 1;
+
 }
 
 .card:hover ~ .card {
   transform: translate3d(calc(200px * 0.5), 0, 0);
+}
+
+.card:hover img {
+  filter: blur(0.7px);
 }

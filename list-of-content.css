@@ -100,7 +100,10 @@ html {
   position: relative;
 
 }
-
+.player {
+  width: 16px;
+  height: 16px;
+}
 .card img {
   width: 100%;
   height: 100%;
@@ -136,7 +139,7 @@ html {
 .left-details {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  align-items: flex-start;
 }
 
 .card-buttons{

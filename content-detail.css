@@ -64,8 +64,9 @@ body {
 
 .fa-user-circle {
   color: gray;
-  margin-top: 20px;
+  margin-top: 30px;
   margin-right: 10px;
+  font-size: 30px;
 }
 
 .content-background {
@@ -94,4 +95,5 @@ body {
 .fa-check-circle {
   margin-top: 15px;
   margin-right: 10px;
+  font-size: 30px;
 }

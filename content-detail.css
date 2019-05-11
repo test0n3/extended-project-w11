@@ -1,16 +1,16 @@
 body {
   display: flex;
-  background: grey;
+  background: gray;
 }
 
 .content-description {
   border: 1px solid;
-  width: 50%;
+  width: 40%;
 }
 
 .content-image {
   border: 1px solid;
-  width: 50%;
+  width: 60%;
 }
 .title {
   color: white;
@@ -20,4 +20,81 @@ body {
 }
 .genres {
   border: 1px solid;
+}
+
+.ranking {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.ranking p {
+  margin-right: 10px;
+  color: rgb(194, 188, 188);
+  font-size: 18px;
+}
+.tv {
+  border: 1px solid rgb(194, 188, 188);
+}
+
+.star {
+  margin-top: 19px;
+  margin-right: 10px;
+  color: rgb(199, 16, 16);
+}
+
+.sinopsis p {
+  color: rgb(194, 188, 188);
+  font-size: 20px;
+}
+
+.content-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fa-play-circle {
+  font-size: 100px;
+  color: rgb(194, 188, 188);
+}
+
+.subtitle {
+  font-size: 20px;
+  color: rgb(194, 188, 188);
+}
+.content {
+  color: white;
+}
+
+.fa-user-circle {
+  color: gray;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+.content-background {
+  height: 500px;
+  /* padding: 150px 25px; */
+  background: linear-gradient(225deg, rgba(52, 105, 191, 0.1) 0%, #000000 100%),
+    url(http://www.cultjer.com/img/ug_photo/2016_02/45791020160219122348.jpg)
+      no-repeat left center;
+  background-size: cover;
+  display: flex;
+}
+
+.extra p {
+  color: white;
+}
+
+.extra {
+  display: flex;
+}
+
+.my-list {
+  color: white;
+  display: flex;
+}
+
+.fa-check-circle {
+  margin-top: 15px;
+  margin-right: 10px;
 }

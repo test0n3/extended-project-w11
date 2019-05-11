@@ -113,9 +113,79 @@ html {
   opacity: 1;
 }
 
+.card {
+  display: flex;
+  align-items: flex-end;
+}
+
 .card__content {
   position: absolute;
+  color: white; 
+  /* Color for card description */
+  display: flex;
+  flex-direction: column;
 }
+
+.card-details {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.left-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.card-buttons{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  justify-content: space-between;
+
+}
+
+.card-buttons i {
+  margin: 5px;
+}
+
+.summary {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  font-size: 8px;
+  width: 210px;
+  height: 80px;
+}
+
+.summary p {
+  margin: 0px;
+}
+
+
+.number-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0px;
+}
+
+.number-info p {
+  margin: 0px;
+}
+
+.arrow {
+  width: 230px;
+  height: 10px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  color: white;
+}
+
 
 .row-inner::-webkit-scrollbar {
   display: none;

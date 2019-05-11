@@ -35,8 +35,10 @@ html {
 }
 
 .genres {
+  font-size: 12px;
   background-color: black;
   border: 0.5px solid white;
+  color: white;
 }
 
 .genres option {
@@ -106,14 +108,9 @@ html {
   color:  white
 }
 
-.player:hover {
+.fa-thumbs-up:hover, .fa-thumbs-down:hover, .fa-plus:hover, .player:hover {
   color: rgb(228, 49, 34);
 }
-
-.fa-thumbs-up:hover, .fa-thumbs-down:hover, .fa-plus:hover {
-  color: rgb(228, 49, 34);
-}
-
 
 .main-title {
   font-size: 8px;

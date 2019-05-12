@@ -34,6 +34,12 @@ html {
   margin-bottom: 40px;
 }
 
+@media only screen and (max-width: 768px) {
+  .title p {
+    text-align: center;
+  }
+}
+
 .profiles {
   display: flex;
   flex-direction: row;
@@ -43,6 +49,12 @@ html {
   background-color: rgb(20, 20, 20);
 }
 
+@media only screen and (max-width: 768px) {
+  .profiles {
+    flex-direction: column;
+  }
+}
+
 .users {
   display: flex;
   flex-direction: column;
@@ -50,7 +62,7 @@ html {
   align-items: center;
 }
 
-.users div img{
+.users div img {
   /* background-color: rgb(0, 125, 128); */
   width: 150px;
   height: 150px;
@@ -74,25 +86,31 @@ html {
 
 .users:hover p {
   color: white;
-  cursor: pointer
+  cursor: pointer;
 }
 
-.manage{
-height:100px;
-width:100%;
-display: flex;
-justify-content: center;
-align-items: center;
-margin: 0px;
-margin-top: 60px
+.manage {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  margin-top: 60px;
 }
 
-.manage p{
+@media only screen and (max-width: 600px) {
+  .manage {
+    margin-top: 15px;
+  }
+}
+
+.manage p {
   color: gray;
   border: 1px solid;
   padding: 0.5em 2em;
 }
-.manage:hover p{
+.manage:hover p {
   border-color: white;
   color: white;
   cursor: pointer;

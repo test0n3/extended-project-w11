@@ -101,7 +101,6 @@ html {
   align-items: center;
   position: relative;
   text-shadow: 0.7px 0.7px gray;
-
 }
 .player {
   width: 16px;
@@ -220,6 +219,10 @@ html {
   align-items: flex-end;
   justify-content: center;
   color: white;
+}
+.arrow a {
+  text-decoration: none;
+  color: red;
 }
 
 .arrow:hover {

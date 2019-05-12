@@ -1,0 +1,121 @@
+body,
+html {
+  background-color: rgb(20, 20, 20);
+  height: 100vh;
+  font-family: "Lato", sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: left;
+  align-content: center;
+  padding-left: 35px;
+  margin: 0px;
+}
+
+.header img {
+  height: 72px;
+  width: 128px;
+}
+
+.title {
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  /* TO ASK SERGIO!!!!!!!!!!!!!!!!!!!!!!!!! */
+  align-items: flex-end;
+  /* align-content: flex-end; */
+}
+
+.title p {
+  color: white;
+  font-size: 60px;
+  margin: 0px;
+  margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 768px) {
+  .title p {
+    text-align: center;
+  }
+}
+
+.profiles {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(20, 20, 20);
+}
+
+@media only screen and (max-width: 768px) {
+  .profiles {
+    flex-direction: column;
+  }
+}
+
+.users {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.users div img {
+  /* background-color: rgb(0, 125, 128); */
+  width: 150px;
+  height: 150px;
+  margin-right: 20px;
+  margin-left: 20px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  border: 4px solid rgb(34, 32, 34);
+}
+
+.users p {
+  color: gray;
+  font-size: 20px;
+}
+
+.users:hover div img {
+  border-color: white;
+  cursor: pointer;
+}
+
+.users:hover p {
+  color: white;
+  cursor: pointer;
+}
+
+.manage {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  margin-top: 60px;
+}
+
+@media only screen and (max-width: 650px) {
+  .manage {
+    margin-top: 15px;
+  }
+
+  .header {
+    justify-content: center;
+  }
+}
+
+.manage p {
+  color: gray;
+  border: 1px solid;
+  padding: 0.5em 2em;
+}
+.manage:hover p {
+  border-color: white;
+  color: white;
+  cursor: pointer;
+}
